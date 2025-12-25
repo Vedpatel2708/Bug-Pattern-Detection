@@ -279,7 +279,6 @@ This is an educational project. Feel free to use, modify, and share!
 ## 🎓 Learning Resources
 
 **RAG Concepts:**
-- [Anthropic's RAG Documentation](https://docs.anthropic.com)
 - Vector databases and embeddings
 - Semantic search principles
 
