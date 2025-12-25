@@ -1,0 +1,414 @@
+[
+  {
+    "error_pattern": "TypeError: 'NoneType' object is not subscriptable",
+    "context": "Accessing dictionary or list elements",
+    "language": "python",
+    "framework": null,
+    "problem_description": "Accessing dictionary or list elements",
+    "solution": "Check if variable is not None before accessing: if data is not None: ...",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error-handling",
+      "none",
+      "dictionary"
+    ],
+    "url": "https://stackoverflow.com/search?q=TypeError+python"
+  },
+  {
+    "error_pattern": "AttributeError: module has no attribute 'x'",
+    "context": "Importing module functions",
+    "language": "python",
+    "framework": null,
+    "problem_description": "Importing module functions",
+    "solution": "Check import statement and module version. Use dir(module) to see available attributes",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "import",
+      "module",
+      "version"
+    ],
+    "url": "https://stackoverflow.com/search?q=AttributeError+python"
+  },
+  {
+    "error_pattern": "SyntaxError: invalid syntax",
+    "context": "Python code parsing",
+    "language": "python",
+    "framework": null,
+    "problem_description": "Python code parsing",
+    "solution": "Check for missing colons, parentheses, or incorrect indentation",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "syntax",
+      "parsing",
+      "indentation"
+    ],
+    "url": "https://stackoverflow.com/search?q=SyntaxError+python"
+  },
+  {
+    "error_pattern": "ModuleNotFoundError: No module named 'xyz'",
+    "context": "Python module import",
+    "language": "python",
+    "framework": null,
+    "problem_description": "Python module import",
+    "solution": "Install the module: pip install xyz. Check virtual environment activation",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "import",
+      "pip",
+      "installation"
+    ],
+    "url": "https://stackoverflow.com/search?q=ImportError+python"
+  },
+  {
+    "error_pattern": "KeyError: 'key_name'",
+    "context": "Dictionary key access",
+    "language": "python",
+    "framework": null,
+    "problem_description": "Dictionary key access",
+    "solution": "Use .get() method: dict.get('key', default_value) or check if key exists",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "dictionary",
+      "keys",
+      "error-handling"
+    ],
+    "url": "https://stackoverflow.com/search?q=KeyError+python"
+  },
+  {
+    "error_pattern": "ValueError in python",
+    "context": "General programming error",
+    "language": "python",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "python"
+    ],
+    "url": "https://stackoverflow.com/search?q=ValueError+python"
+  },
+  {
+    "error_pattern": "IndexError in python",
+    "context": "General programming error",
+    "language": "python",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "python"
+    ],
+    "url": "https://stackoverflow.com/search?q=IndexError+python"
+  },
+  {
+    "error_pattern": "NameError in python",
+    "context": "General programming error",
+    "language": "python",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "python"
+    ],
+    "url": "https://stackoverflow.com/search?q=NameError+python"
+  },
+  {
+    "error_pattern": "RuntimeError in python",
+    "context": "General programming error",
+    "language": "python",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "python"
+    ],
+    "url": "https://stackoverflow.com/search?q=RuntimeError+python"
+  },
+  {
+    "error_pattern": "TypeError: Cannot read property 'x' of undefined",
+    "context": "Accessing object properties",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "Accessing object properties",
+    "solution": "Use optional chaining: object?.property or check if object exists",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error-handling",
+      "undefined",
+      "object"
+    ],
+    "url": "https://stackoverflow.com/search?q=TypeError+javascript"
+  },
+  {
+    "error_pattern": "AttributeError in javascript",
+    "context": "General programming error",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "javascript"
+    ],
+    "url": "https://stackoverflow.com/search?q=AttributeError+javascript"
+  },
+  {
+    "error_pattern": "SyntaxError: Unexpected token",
+    "context": "JavaScript parsing",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "JavaScript parsing",
+    "solution": "Check for missing brackets, commas, or quotes",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "syntax",
+      "parsing",
+      "brackets"
+    ],
+    "url": "https://stackoverflow.com/search?q=SyntaxError+javascript"
+  },
+  {
+    "error_pattern": "ImportError in javascript",
+    "context": "General programming error",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "javascript"
+    ],
+    "url": "https://stackoverflow.com/search?q=ImportError+javascript"
+  },
+  {
+    "error_pattern": "KeyError in javascript",
+    "context": "General programming error",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "javascript"
+    ],
+    "url": "https://stackoverflow.com/search?q=KeyError+javascript"
+  },
+  {
+    "error_pattern": "ValueError in javascript",
+    "context": "General programming error",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "javascript"
+    ],
+    "url": "https://stackoverflow.com/search?q=ValueError+javascript"
+  },
+  {
+    "error_pattern": "IndexError in javascript",
+    "context": "General programming error",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "javascript"
+    ],
+    "url": "https://stackoverflow.com/search?q=IndexError+javascript"
+  },
+  {
+    "error_pattern": "NameError in javascript",
+    "context": "General programming error",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "javascript"
+    ],
+    "url": "https://stackoverflow.com/search?q=NameError+javascript"
+  },
+  {
+    "error_pattern": "RuntimeError in javascript",
+    "context": "General programming error",
+    "language": "javascript",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "javascript"
+    ],
+    "url": "https://stackoverflow.com/search?q=RuntimeError+javascript"
+  },
+  {
+    "error_pattern": "TypeError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=TypeError+java"
+  },
+  {
+    "error_pattern": "AttributeError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=AttributeError+java"
+  },
+  {
+    "error_pattern": "SyntaxError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=SyntaxError+java"
+  },
+  {
+    "error_pattern": "ImportError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=ImportError+java"
+  },
+  {
+    "error_pattern": "KeyError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=KeyError+java"
+  },
+  {
+    "error_pattern": "ValueError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=ValueError+java"
+  },
+  {
+    "error_pattern": "IndexError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=IndexError+java"
+  },
+  {
+    "error_pattern": "NameError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=NameError+java"
+  },
+  {
+    "error_pattern": "RuntimeError in java",
+    "context": "General programming error",
+    "language": "java",
+    "framework": null,
+    "problem_description": "General programming error",
+    "solution": "Check the documentation and error message for specific details",
+    "source": "stackoverflow",
+    "confidence_score": 40,
+    "tags": [
+      "error",
+      "java"
+    ],
+    "url": "https://stackoverflow.com/search?q=RuntimeError+java"
+  }
+]

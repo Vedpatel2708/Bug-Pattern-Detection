@@ -1,0 +1,23 @@
+# Bug Pattern Detective - Requirements
+
+# Core RAG components
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# LLM Integration
+groq==0.4.1
+
+# Data collection
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# Web UI
+streamlit==1.31.0
+
+# Utilities
+python-dotenv==1.0.1
+numpy==1.26.3
+pandas==2.2.0
+
+# Optional: For parsing Stack Overflow dumps
+# lxml==5.1.0

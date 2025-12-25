@@ -1,0 +1,19 @@
+[
+  {
+    "error_pattern": "Your error message here",
+    "context": "What you were trying to do",
+    "language": "python/javascript/etc",
+    "framework": "django/react/etc (optional)",
+    "problem_description": "Detailed description of the problem",
+    "solution": "How you fixed it",
+    "source": "personal",
+    "confidence_score": 50,
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "url": null,
+    "date_fixed": "2024-01-01",
+    "notes": "Additional notes about the fix"
+  }
+]
